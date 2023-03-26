@@ -326,7 +326,7 @@ img {
   color: var(--first-color);
 }
 .button--white:hover{
-  background-color: #fff;
+  color: #fff;
 }
 .button--flex{
   display: inline-flex;
