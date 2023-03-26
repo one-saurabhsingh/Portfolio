@@ -321,7 +321,13 @@ img {
   margin-left: var(--mb-0-5);
   transition: .3s;
 }
-
+.button--white{
+  background-color: #fff;
+  color: var(--first-color);
+}
+.button--white:hover{
+  background-color: #fff;
+}
 .button--flex{
   display: inline-flex;
   align-items: center;
@@ -647,17 +653,110 @@ img {
 
 
 /*==================== PROJECT IN MIND ====================*/
-
+.project{
+  text-align: center;
+}
+.project__bg{
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+.project__description{
+  margin-bottom: var(--mb-1-5);
+}
+.project__title,
+.project__description{
+  color: #fff;
+}
+.project__img{
+  width: 232px;
+  justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
-
-
+.testimonial__data,
+.testimonial__header{
+  display: flex;
+}
+.testimonial__data{
+  justify-content: space-between;
+  margin-bottom: var(--mb-1);
+}
+.testimonial__img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: var(--mb-0-75);
+}
+.testmonial__name{
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+}
+.testimonial__client{
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+.testimonial__description{
+  margin-bottom: var(--mb-2-5);
+}
+.testimonial__icon-star{
+  color: var(--first-color);
+}
+.swiper-container .swiper-container-testimonial{
+  bottom: 0;
+}
 /*==================== CONTACT ME ====================*/
 
 
 /*==================== FOOTER ====================*/
+.footer{
+  padding-top: 2rem;
+}
+.footer__container{
+  row-gap: 3.5rem;
+}
+.footer__bg{
+ background-color: var(--first-color-second);
+ padding: 2rem 0 3rem;
+}
+.footer__title{
+  font-size: var(--h1-font-size);
+  margin-bottom: var(--mb-0-25);
+}
+.footer__subtitle{
+  font-size: var(--small-font-size);
+}
+.footer__link{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.footer__link:hover{
+  color: var(--first-color-lighter);
+}
+.footer__social{
+  font-size: 1.25rem;
+  margin-right: var(--mb-1-5);
+}
+.footer__social:hover{
+  color: var(--first-color-lighter);
+}
+.footer__copy{
+  font-size: var(--smaller-font-size);
+  text-align: center;
+  color: var(--text-color-light);
+  margin-top: var(--mb-3);
+}
 
-
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social{
+  color: #fff;
+}
 /*========== SCROLL UP ==========*/
 
 
