@@ -96,7 +96,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 
     navigation: {
     nextEl: '.swiper-button-next',
-    prevE1: '.swiper-button-prev',
+    prevEl: '.swiper-button-prev',
     },
     pagination: {
     el: '.swiper-pagination',
