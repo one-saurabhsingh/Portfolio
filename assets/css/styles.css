@@ -705,7 +705,7 @@ img {
 .testimonial__icon-star{
   color: var(--first-color);
 }
-.swiper-container .swiper-container-testimonial{
+.swiper-container .swiper-pagination-testimonial{
   bottom: 0;
 }
 /*==================== CONTACT ME ====================*/
