@@ -575,6 +575,8 @@ img {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   cursor: pointer;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .about__buttons:hover{
