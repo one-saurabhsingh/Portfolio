@@ -71,8 +71,8 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-   
-    --first-color-second: hsl(var(--hue-color), 30%, 8%); 
+
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
@@ -153,7 +153,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
-.section__title, 
+.section__title,
 .section__subtitle {
   text-align: center;
 }
@@ -377,7 +377,7 @@ img {
 }
 .button--white{
  color: #fff;
- 
+
 }
 
 .button--flex{
@@ -509,6 +509,9 @@ img {
   background-color: var(--first-color);
 }
 
+.skills__jquery{
+  width: 90%;
+}
 .skills__html{
   width: 95%;
 }
@@ -530,6 +533,9 @@ img {
 .skills__cpp{
   width: 90%;
 }
+.skills__python{
+  width: 55%;
+}
 .skills__java{
   width: 50%;
 }
@@ -547,6 +553,9 @@ img {
 }
 .skills__dbms{
   width: 80%;
+}
+.skills__ejs{
+  width: 90%;
 }
 
 .skills__close .skills__list{
@@ -1197,7 +1206,7 @@ margin-bottom: var(--mb-0-75);
   }
   .footer__socials{
     justify-self: flex-end;
-  } 
+  }
   .footer__copy{
     margin-top: 4.5rem;
   }
