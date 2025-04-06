@@ -1,1 +1,1 @@
-My Portfolio.
+BTSA at ZS Associates and a B.Tech ECE student at BIT Mesra (2025), skilled in programming and web development. With notable internships and impactful projects like Scholar Net and Co-Crypt, I showcase strong problem-solving abilities and leadership experience.
